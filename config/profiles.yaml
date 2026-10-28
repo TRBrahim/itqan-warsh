@@ -1,0 +1,17 @@
+# One profile per riwayah. Add Qalun, Shu‘bah, ... by adding a block here.
+warsh:
+  riwayah: warsh
+  name: "Warsh 'an Nafi'"
+  tariq: azraq
+  edition: muhammmadi
+  numbering: madani_6214
+  text_path: data/warsh/quran_muhammadi.json
+  text_fields: { sura: sura, aya: aya, text: text }
+
+  asr:
+    model_dir: moddels/quran-asr-tiny
+    num_threads: 2
+  thresholds:
+    jump_min_words: 8
+    small_distance: 0.34
+    abstain_mismatch_ratio: 0.6
