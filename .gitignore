@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data & Models (DO NOT upload gigabytes of audio or models to GitHub)
+models/
+*.onnx
+*.bin
+*.safetensors
+
+# OS generated files
+.DS_Store
+Thumbs.db

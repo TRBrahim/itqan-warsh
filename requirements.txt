@@ -1,0 +1,10 @@
+numpy
+scipy
+soundfile
+pyyaml
+sherpa-onnx
+huggingface_hub
+quranic-phonemizer
+torch
+transformers
+datasets
